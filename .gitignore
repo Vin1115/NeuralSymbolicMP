@@ -1,1 +1,5 @@
 .idea
+.vscode
+data/FB15k-237-EFO1
+data/NELL-EFO1
+EFO-1_log
