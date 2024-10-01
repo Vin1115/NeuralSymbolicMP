@@ -1,0 +1,11 @@
+formula_id,formula,f_num,e_num,c_num,edge_num,cyclic,multi,Union,Name
+type0013,"((r1(s1,e1))&(!(r2(e1,f1))))&(r3(s2,f1))",1,1,2,3,FALSE,FALSE,FALSE,pni
+type0014,"(r1(s1,e1))&((r2(e1,f1))&(r3(e1,f1)))",1,1,1,3,FALSE,TRUE,FALSE,2m
+type0015,"(r1(s1,e1))&((r2(e1,f1))&(!(r3(e1,f1))))",1,1,1,3,FALSE,TRUE,FALSE,2nm
+type0016,"(r1(s1,e1))&((r2(s2,e1))&((r3(e1,f1))&(r4(e1,f1))))",1,1,2,4,FALSE,TRUE,FALSE,im
+type0017,"(r1(s1,e1))&((r2(e1,e2))&((r3(e1,e2))&(r4(e2,f1))))",1,2,1,4,FALSE,TRUE,FALSE,3mp
+type0018,"(r1(s1,e1))&((r2(e1,e2))&((r3(e2,f1))&(r4(e2,f1))))",1,2,1,4,FALSE,TRUE,FALSE,3pm
+type0019,"(r1(s1,f1))&(r2(e1,f1))",1,1,1,2,FALSE,FALSE,FALSE,2il
+type0020,"(r1(s1,f1))&((r2(s2,f1))&(r3(e1,f1)))",1,1,2,3,FALSE,FALSE,FALSE,3il
+type0021,"(r1(s1,e1))&((r2(s2,e2))&((r3(e1,e2))&((r4(e1,f1))&(r5(e2,f1)))))",1,2,2,5,TRUE,FALSE,FALSE,3c
+type0022,"(r1(s1,e1))&((r2(s2,e2))&((r3(e1,f1))&((r4(e1,f1))&((r5(e1,e2))&(r6(e2,f1))))))",1,2,2,6,TRUE,TRUE,FALSE,3cm
